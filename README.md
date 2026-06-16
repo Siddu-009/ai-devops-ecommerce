@@ -112,12 +112,6 @@ terraform plan
 terraform apply
 ```
 
-Terraform Screenshot:
-
-![Terraform](screenshots/terraform-apply.png)
-
----
-
 # Amazon EKS Cluster
 
 Amazon EKS was used to host Kubernetes workloads.
@@ -128,12 +122,6 @@ Features:
 * Managed Node Groups
 * Auto Scaling
 * High Availability
-
-Cluster Screenshot:
-
-![EKS](screenshots/eks-cluster.png)
-
----
 
 # Docker Containerization
 
@@ -169,12 +157,6 @@ Repositories:
 * backend
 * ai-engine
 
-Screenshot:
-
-![ECR](screenshots/ecr-repositories.png)
-
----
-
 # Kubernetes Deployment
 
 Resources Created:
@@ -193,16 +175,6 @@ Deployment Example:
 kubectl apply -f .
 ```
 
-Pods Screenshot:
-
-![Pods](screenshots/kubernetes-pods.png)
-
-Services Screenshot:
-
-![Services](screenshots/kubernetes-services.png)
-
----
-
 # Application Load Balancer
 
 AWS Load Balancer Controller was used to provision an ALB automatically.
@@ -212,13 +184,7 @@ Features:
 * External Access
 * Traffic Routing
 * High Availability
-
-Ingress Screenshot:
-
-![Ingress](screenshots/ingress.png)
-
----
-
+  
 # CI/CD Pipeline
 
 Pipeline Flow:
@@ -254,12 +220,6 @@ Jenkins Dashboard:
 
 ![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
 
-Pipeline Screenshot:
-
-![Pipeline](screenshots/jenkins-pipeline.png)
-
----
-
 # GitHub Integration
 
 GitHub repository is integrated with Jenkins using Webhooks.
@@ -269,12 +229,6 @@ Workflow:
 * Developer pushes code
 * GitHub triggers Jenkins
 * Jenkins executes deployment pipeline
-
-GitHub Screenshot:
-
-![GitHub Actions](screenshots/github-actions.png)
-
----
 
 # AI Engine
 
