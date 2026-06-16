@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecommerce-config
+  namespace: ai-devops
+
+data:
+  ENVIRONMENT: "production"
+  APP_NAME: "AI Ecommerce"
