@@ -5,7 +5,6 @@
 AI DevOps E-Commerce Platform is a cloud-native microservices application deployed on AWS using modern DevOps practices.
 
 The project demonstrates Infrastructure as Code (Terraform), Containerization (Docker), Container Orchestration (Amazon EKS), CI/CD (Jenkins & GitHub), and AI integration capabilities.
-
 ---
 
 # Architecture
@@ -294,26 +293,6 @@ Implemented Security Controls:
 * Trivy Security Scanning
 * Route53 Custom Domain
 * ACM SSL Certificates
-
----
-
-# Screenshots
-
-## AWS Infrastructure
-
-![AWS Infrastructure](screenshots/aws-infrastructure.png)
-
-## Kubernetes Pods
-
-![Pods](screenshots/kubernetes-pods.png)
-
-## Jenkins
-
-![Jenkins](screenshots/jenkins-dashboard.png)
-
-## Application
-
-![Application](screenshots/application-homepage.png)
 
 ---
 # End-to-End Working Flow
